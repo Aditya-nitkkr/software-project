@@ -1,0 +1,50 @@
+* {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background: #e7b8b8;
+    padding: 5px 5px 0px;
+}
+
+.home,
+.member,
+.signIn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 10px;
+    color: rgb(89, 50, 228);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+.home:hover,
+.member:hover,
+.signIn:hover {
+    border-bottom-color: black;
+    transition: border-bottom-color 0.3s;
+}
